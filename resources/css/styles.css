@@ -48,7 +48,7 @@ button:active {
 .output {
   display: grid;
   grid-area: output;
-  width: 100%;
+  width: 50%;
   height: auto;
   justify-items: center;
 }
@@ -57,6 +57,7 @@ button:active {
   font-weight: normal;
   font-family: "Oxygen", sans-serif;
   text-align: justify;
+  margin: 0 auto;
 }
 .footer {
   grid-area: foot;
@@ -64,6 +65,7 @@ button:active {
   bottom: 0;
   min-height: 50px;
   position: fixed;
+  background-color: white;
 }
 .footer p {
   text-align: center;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
   <head>
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/styles.css">
+    <script src="./resources/scripts/script.js"></script>
   </head>
 
   <body>
@@ -18,16 +19,14 @@
           <img src="./resources/images/BigGucciSosa.png" alt="Picture of Big Gucci Sosa AKA Chief Keef">
         </div>
         <div class="button">
-          <button type="button" onclick="chiefKeefLyric">
+          <button type="button" onClick="document.getElementById('output').insertAdjacentHTML('beforeend', randomMessage)">
             <p>
               Generate!
             </p>
           </button>
         </div>
-        <div class="output">
-          <p>
-            
-          </p>
+        <div class="output" id="output">
+
         </div>
     </main>
     <footer class="footer">
