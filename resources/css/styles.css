@@ -1,5 +1,96 @@
 /* Universal Styles */
+html {
+  font-size: 14px;
+}
+.image-container {
+  display: grid;
+  grid-area: image;
+  width: 100%;
+  justify-items: center;
+  margin-bottom: 2rem;
+}
+.image-container img {
+  width: 25%;
+  height: auto;
+}
+.button {
+  display: grid;
+  grid-area: button;
+  justify-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+button {
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  width: 25%;
+  height: auto;
+}
+button:hover {
+  background-color: red;
+}
+button:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button p {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Oxygen", sans-serif;
+}
+.output {
+  display: grid;
+  grid-area: output;
+  width: 100%;
+  height: auto;
+  justify-items: center;
+}
+.output p {
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: "Oxygen", sans-serif;
+  text-align: justify;
+}
+.footer {
+  grid-area: foot;
+  width: 100%;
+  bottom: 0;
+  min-height: 50px;
+  position: fixed;
+}
+.footer p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Oxygen", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "image"
+                        "button"
+                        "output"
+                        "foot";
+  width: 100%;
+  height: auto;
+}
 
-/* Desktop Styles */
-
-/* Mobile Styles */
+@media only screen and (max-width: 768px){
+  .button p {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Oxygen", sans-serif;
+  }
+  .image-container img {
+    width: 50%;
+    height: auto;
+  }
+}
