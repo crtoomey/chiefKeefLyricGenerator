@@ -1,7 +1,7 @@
-# Chief Keef Lyric Generator
+# Chief Keef Adlib Generator
 
 ## Features
-* Generates Chief Keef lyrics at random
+* Generates Chief Keef ad libs at random
 * Has picture of Chief Keef
 * Has a button
 
