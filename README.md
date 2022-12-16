@@ -3,8 +3,9 @@
 ## Features
 * Generates random philospher quotes
 * Generates random Chief Keef ad libs
-* Combies ad lib and quotes with "Chief Keef says: " + quote + adlib
+* Combines ad lib and quotes to display a message in the format of: quote + adlib + "! -Chief Keef"
 * Has picture of Chief Keef
-* Has a button
+* Has a button to generate message
+* Has a button to reset (refreshes page)
 
 ###### Made by Colin Toomey
