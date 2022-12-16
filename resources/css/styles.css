@@ -13,7 +13,7 @@ html {
   width: 25%;
   height: auto;
 }
-.button {
+.btn {
   display: grid;
   grid-area: button;
   justify-items: center;
@@ -40,7 +40,12 @@ button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.button p {
+#button p {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Oxygen", sans-serif;
+}
+#resetButton p {
   font-size: 2rem;
   font-weight: bold;
   font-family: "Oxygen", sans-serif;
@@ -52,12 +57,21 @@ button:active {
   height: auto;
   justify-items: center;
 }
-.output p {
-  font-size: 1rem;
+#output {
+  font-size: 2rem;
   font-weight: normal;
   font-family: "Oxygen", sans-serif;
   text-align: justify;
   margin: 0 auto;
+}
+.reset {
+  grid-area: reset;
+  display: grid;
+  grid-area: button;
+  justify-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .footer {
   grid-area: foot;
@@ -80,16 +94,48 @@ button:active {
   grid-template-areas: "image"
                         "button"
                         "output"
+                        "reset"
                         "foot";
   width: 100%;
   height: auto;
 }
 
+#mobileButton {
+  display: none;
+}
+#mobileResetButton {
+  display: none;
+}
+
 @media only screen and (max-width: 768px){
-  .button p {
+  #button {
+    display: none;
+  }
+  #resetButton {
+    display: none;
+  }
+  #mobileButton {
+    display: grid;
+  }
+  #mobileResetButton {
+    display: grid;
+  }
+  #mobileButton p {
     font-size: 1rem;
     font-weight: bold;
     font-family: "Oxygen", sans-serif;
+  }
+  #mobileResetButton p {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Oxygen", sans-serif;
+  }
+  #output {
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: "Oxygen", sans-serif;
+    text-align: justify;
+    margin: 0 auto;
   }
   .image-container img {
     width: 50%;

@@ -18,8 +18,13 @@
         <div class="image-container">
           <img src="./resources/images/BigGucciSosa.png" alt="Picture of Big Gucci Sosa AKA Chief Keef">
         </div>
-        <div class="button">
-          <button type="button" onClick="document.getElementById('output').insertAdjacentHTML('beforeend', randomMessage)">
+        <div class="btn">
+          <button id="button" type="button" onClick="addRandomMessage()">
+            <p>
+              Generate!
+            </p>
+          </button>
+          <button id="mobileButton" type="button" onClick="addMobileRandomMessage()">
             <p>
               Generate!
             </p>
@@ -27,6 +32,18 @@
         </div>
         <div class="output" id="output">
 
+        </div>
+        <div class="reset">
+          <button id="resetButton" type="button" onClick="refreshPage()" disabled>
+            <p>
+              Reset
+            </p>
+          </button>
+          <button id="mobileResetButton" type="button" onClick="refreshPage()" disabled>
+            <p>
+              Reset
+            </p>
+          </button>
         </div>
     </main>
     <footer class="footer">
