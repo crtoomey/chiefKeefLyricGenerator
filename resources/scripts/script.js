@@ -86,7 +86,7 @@ let getRandomMessage = () => {
   ;
 }
 
-console.log(getRandomMessage());
+// console.log(getRandomMessage());
 
 let randomMessage = getRandomMessage();
 

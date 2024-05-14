@@ -50,6 +50,9 @@ button:active {
   font-weight: bold;
   font-family: "Oxygen", sans-serif;
 }
+#resetButton {
+  margin-bottom: 2rem;
+}
 .output {
   display: grid;
   grid-area: output;
@@ -78,6 +81,7 @@ button:active {
   width: 100%;
   bottom: 0;
   min-height: 50px;
+  max-height: 100px;
   position: fixed;
   background-color: white;
 }
