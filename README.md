@@ -1,5 +1,8 @@
 # Chief Keef Message Generator
 
+![image](https://github.com/crtoomey/philosopherQuotesAndSosaAdLibs/assets/86315504/69223c60-fae3-4fdb-99dd-cd0e9c38b203)
+
+
 ## Features
 * Generates random philospher quotes
 * Generates random Chief Keef ad libs
