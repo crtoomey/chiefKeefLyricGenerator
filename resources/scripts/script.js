@@ -73,7 +73,7 @@ const chiefKeef = {
     ],
   adLibs: ['Bang', 'Bang Bang', '3 Hunna', 'Nah', 'O\'Block', 'Aye', 'Let\'s Get It',
     'Skrrt', 'Skr skr skrrt', 'Woo', 'Woo Woo', 'Gang Gang',
-    'GBE Baby', 'Sosa Baby', 'Gang in this bitch', 'Squad']
+    'GBE Baby', 'Sosa Baby', 'Squad']
 }
 
 let randomQuote = chiefKeef.quotes[Math.floor(Math.random() * chiefKeef.quotes.length)];
